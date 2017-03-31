@@ -9,3 +9,5 @@ def loadDataset(filename) :
     label = np.genfromtxt(os.path.join(path, filename), usecols=(-1), delimiter=',')
 
     return attr, label
+
+# def visualizeScatter()
